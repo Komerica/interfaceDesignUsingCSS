@@ -111,6 +111,9 @@ p {
   color: var(--color-white);
   padding-top: 12px;
 }
+#navbar img {
+  width: 120px;
+}
 .navbar__menu {
   display: flex;
 }
@@ -197,7 +200,10 @@ section h3:first-of-type {
 
 @media screen and (max-width: 992px) {
   .sample__item {
-    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .sample__items {
+    display: block;
   }
 }
 @media screen and (max-width: 768px) {
@@ -210,9 +216,6 @@ section h3:first-of-type {
     --font-micro: 16px;
   }
   .history__flex {
-    display: block;
-  }
-  .sample__items {
     display: block;
   }
 }
