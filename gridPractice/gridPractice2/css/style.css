@@ -20,3 +20,35 @@ main section:nth-child(2) {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
+div {
+  border: 8px solid white;
+  margin: -8px;
+}
+
+header {
+  background-color: rgb(90, 130, 160);
+  border: 8px solid white;
+  margin: -8px;
+}
+main section:nth-child(1) div:nth-child(1) {
+  background-color: rgb(90, 130, 160);
+}
+main section:nth-child(1) div:nth-child(2) {
+  background-color: rgb(90, 130, 160);
+}
+main section:nth-child(2) div:nth-child(1) {
+  background-color: rgb(90, 130, 160);
+}
+main section:nth-child(2) div:nth-child(2) {
+  background-color: rgb(90, 130, 160);
+}
+aside {
+  background-color: rgb(90, 130, 160);
+  border: 8px solid white;
+  margin: -8px;
+}
+footer {
+  background-color: rgb(90, 130, 160);
+  border: 8px solid white;
+  margin: -8px;
+}
